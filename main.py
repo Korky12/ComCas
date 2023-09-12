@@ -32,7 +32,7 @@ def game():
   print(f'         {Fore.LIGHTBLACK_EX} -----------------------------------------------------------{Fore.RESET}')
   time.sleep(1)
   print(f'                                                                                                    ')
-  print(f"         {Fore.LIGHTMAGENTA_EX}Vítejte v naší hře            DEV by Jakub Hošek & Matěj Mrkus{Fore.RESET}")  #hosku to uvítání nejak přepis, to "Vítejte v naší hře", dej tam neco jinyho je to dogshitXD
+  print(f"         {Fore.LIGHTMAGENTA_EX}Vítejte v naší hře            DEV by Jakub Hošek & Matěj Mrkus{Fore.RESET}") 
   print(f'                                                                                                    ')
   print(f'                                                                                                    ')
 
@@ -423,10 +423,6 @@ def game():
             points = int(points)
             end()
   #-------------------------------------------------     
-        
-      elif casino_choice == "kubamatej":
-    
-          print("Co tady děláš???")
 
       elif casino_choice == "rickroll":
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
